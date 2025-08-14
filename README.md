@@ -5,8 +5,7 @@ Centralized CDN repository for TrganReport's shared assets, including stylesheet
 ## 📦 Structure
 
 Assets are organized by version:
-```
-assets/ 
+``` 
 └── v1.0/ 
     ├── logo/                   # Trgan logo (restricted use) 
     ├── icons/           
@@ -20,9 +19,9 @@ assets/
 ### CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trgan/trgan-report-cdn@v1.0/assets/v1.0/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/trgan/trgan-report-cdn@[RepoVersion]/[AppVersion]/style.css">
 
-<script src="https://cdn.jsdelivr.net/gh/trgan/trgan-report-cdn@v1.0/assets/v1.0/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/trgan/trgan-report-cdn@[RepoVersion]/[AppVersion]/script.js"></script>
 ```
 
 ## 🤝 Connect, Contact & Collaborate
